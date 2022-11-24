@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+.section-block{padding:2.5em;}
+    .section-block h1{color: rgb(202, 168, 128);margin-bottom:2em ;font-size: 2.2em;font-weight: bolder;}
+    .section-block h2{margin:1em 0 .5em;font-size: 1.5em;color: rgb(202, 168, 128);font-weight:bolder;}
+    .section-block p{color:#3b4964;margin-bottom: 4em;text-align:justify ;line-height: 30px;}
+
+/*header*/
+header{display: flex;justify-content: space-between;align-items: center;height: 5em;background-color: #ffff;padding:1em 2.5em;}
+    header img{width: 4.5em;}
+    header .navigation>a{text-decoration: none;color: black;margin-right: .8em;font-size: 1.1em;}
+    header .navigation > a:last-child {margin-right: 0;}
+
+    
+@media screen and (min-width: 800px){
+    header{padding:3em 5em;}
+    header img{width: 5em;}
+
+}
+/*header*/
+
+
+/*hero*/
+.hero{display: flex; justify-content: center;padding:0 2.5em ;}
+.hero video{width: 100%;height: 100%;margin-bottom: 3em;}
+@media screen and (min-width: 800px){
+    .hero{padding: 0 5em;}
+}
+@media screen and (min-width: 1200px){
+    .hero{padding: 0 10em;}
+}
+
+/*hero*/
+
+/*about-us-section*/
+.about-us-section{padding: 2.5em 2.5em ;}
+    .about-us-section .grid-container-about{padding:0 0 2.5em}
+    .about-us-section img{width: 100%;border-radius: 15px;}
+
+@media screen and (min-width: 800px){
+    .about-us-section{display: flex;justify-content: space-between;align-items: center;padding: 2.5em 5em;}
+    .about-us-section img{width: 50%;height: 50%; margin-left: 2.5em;}
+}
+
+@media screen and (min-width: 1200px){
+    header{padding:3em 10em;}
+}
+/*about-us-section*/
+
+
+/*services-section*/
+.services-section{text-align: center;}
+    .services-section img{width: 6.5em;}
+    .services-section p{text-align: center;}
+
+@media screen and (min-width: 800px){
+    .services-section{padding: 5em 5em;}
+    .services-section .grid-container{display: grid;grid-template-columns: auto auto auto;gap:1.5em}
+    
+}
+
+/*services-section*/
+
+
+/*description-section*/
+.description-section{background-image: url("images/medi-3.jpg");padding: 8em 2.5em;background-repeat: no-repeat;background-position: center;background-size: cover;position: relative;}
+    .description-section p{margin-bottom: 0;color: #ffff;text-align: center;font-size: 1.2em;}
+
+@media screen and (min-width: 1200px){
+    .description-section{height: 20em;}
+    .description-section{display: flex; align-items: center;justify-content: center;}
+    .description-section p{margin:0;font-size: 1.7em;}
+}
+/*description-section*/
+
+/*footer*/
+.details-section {padding: 3em 2.5em;}
+    .details-section  h1{color: #000;margin-bottom: 1em;}
+    .details-section address{margin-bottom: 1em;}
+/*footer*/
+
+@media screen and (min-width: 1200px){
+    .section-block{padding: 5em 10em;}
+}
+
